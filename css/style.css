@@ -993,7 +993,7 @@ width: 60px;
 position: absolute;
     top: 50%;
     left: 50%;
-    margin: -330px 0 0 -30px;
+    margin: -310px 0 0 -30px;
 
 }
 
@@ -1105,7 +1105,7 @@ z-index: 1;
 
 #about {
     width: 100%;
-    height: 580px;
+    height: 530px;
     background-color: #2a2a2a;
 z-index: 1;
     text-align: center;
@@ -1129,8 +1129,8 @@ font-size: 60px;
 }
 
 .aboutText {
-width: 380px;
-    height: 250px;
+width: 350px;
+    height: 200px;
     font-family: Montserrat, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: white;
@@ -1138,7 +1138,8 @@ width: 380px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -125px 0 0 -190px;
+    margin: -80px 0 0 -175px;
+    font-size: 12px;
     
   
 
@@ -1212,6 +1213,7 @@ width: 380px;
     left: 50%;
     margin: 0px 0 0 -190px;
     color: transparent;
+    text-align: center;
     
 }
 .project1Overlay:hover {
@@ -1226,6 +1228,480 @@ width: 380px;
     opacity: 0.9;
     cursor: pointer;
     color: #2a2a2a;
+    text-align: center;
+}
+
+
+
+#contact {
+width: 100vw;
+    height: 100px;
+    background-color: #cf9247;
+    text-align: center;
+
+
+}
+
+.projectText {
+width: 350px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-50px 0 0 -175px;
+
+
+}
+
+.projectDescription {
+width: 350px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -0px 0 0 -175px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+
+
+}
+
+a {
+color: inherit;
+    text-decoration: none;
+    font-family: Asche, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    z-index: 5;
+
+}
+
+.contactTitle {
+font-family: Asche, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 60px;
+    color: white;
+    line-height: 100px;
+
+}
+
+.contactContainer {
+width: 100vw;
+    height: 800px;
+    background-color: #2a2a2a;
+position: relative;
+}
+
+.footer {
+width: 100vw;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+
+}
+
+.upArrow {
+
+width: 60px;
+    height: 60px;
+    background-image: url(../img/upArrow.png);
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.designedBy {
+
+color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    font-size: 10px;
+    
+
+}
+
+.dakotacorbin {
+color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 10px;
+
+}
+.dakotacorbin:hover {
+color: #cf9247;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 10px;
+
+}
+    
+    .contactText {
+    width: 100%;
+        height: 50%;
+        color: white;
+        font-family: Montserrat, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-align: left;
+        position: relative;
+        float: left;
+    
+        
+    
+    }
+.address {
+    width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -80px 0 0 -125px;
+    font-size: 20px;
+        
+    
+    
+    }
+    
+    .socialMedia {
+      width: 100%;
+        height: 50%;
+        color: white;
+        font-family: Montserrat, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        position: relative;
+        float: left;
+    }
+    
+    .iconContainer {
+    
+    width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -150px 0 0 -150px;
+    
+    }
+    
+    .icon1 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/twitterIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    .icon2 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/instagramIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    .icon3 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/linkedinIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    .icon4 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/githubIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 375px) {
+
+html, body {
+margin: 0 auto;
+
+}
+
+#home {
+
+width: 100vw;
+    height: 100vh;
+    background-image: url(../img/mistyTrees.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+
+.iconLogo {
+width: 60px;
+    height: 60px;
+    background-image: url(../img/iconLogo.png);
+    background-size: cover;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -260px 0 0 -30px;
+
+}
+
+.mainLogo {
+width: 300px;
+    height: 150px;
+    background-image: url(../img/mainLogo.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -150px;
+
+}
+
+.nav1 {
+position: absolute;
+    
+    top: 0px;
+    left: -5px;
+
+
+}
+
+.nav2 {
+position: absolute;
+    
+    top: 0px;
+    right: 10px;
+}
+
+.navLinks {
+
+     color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+}
+
+.navLinks:hover {
+
+     color: #2a2a2a;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+
+}
+    
+        .emailLink {
+
+     color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+}
+
+.emailLink:hover {
+
+     color: #cf9247;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+
+}
+
+ ul {
+    list-style-type: none;
+    margin: auto;
+    padding-top: 0px;
+     text-align: center;
+  }
+  li {
+    display: block;
+    
+    color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+      list-style-type: none;
+  }
+
+.downArrow {
+width: 60px;
+    height: 60px;
+    background-image: url(../img/downArrow.png);
+    background-size: cover;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 200px 0 0 -30px;
+   
+
+}
+
+.me {
+width: 100%;
+    height: 562px;
+    background-image: url(../img/me.png);
+    background-size: cover;
+    
+z-index: 1;
+    position: absolute;
+    
+}
+
+#about {
+    width: 100%;
+    height: 530px;
+    background-color: #2a2a2a;
+z-index: 1;
+    text-align: center;
+    position: absolute;
+    top: 950px;
+    
+}
+
+
+
+
+.aboutTitle {
+font-family: Asche, sans-serif;
+    color: #cf9247;
+font-size: 60px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    z-index: 2;
+    margin-top: 30px;
+
+}
+
+.aboutText {
+width: 350px;
+    height: 200px;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -80px 0 0 -175px;
+    font-size: 12px;
+    
+  
+
+}
+
+.bgPanel1 {
+
+width: 100vw;
+    height: 1050px;
+    background-image: url(../img/aerialTrees1.png);
+    background-size: cover;
+    background-attachment: fixed;
+z-index: 0;
+}
+.bgPanel2 {
+
+width: 100vw;
+    height: 150px;
+    background-image: url(../img/aerialTrees2.png);
+    background-size: cover;
+    background-attachment: fixed;
+z-index: 0;
+}
+
+#work {
+width: 100vw;
+    height: 100px;
+    background-color: #cf9247;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+
+
+}
+
+.workTitle {
+font-family: Asche, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 60px;
+    color: white;
+    line-height: 100px;
+
+}
+
+.workContainer {
+width: 100vw;
+    height: 265px;
+    background-color: #2a2a2a;
+
+}
+
+.project1 {
+
+width: 360px;
+    height: 265px;
+    background-image: url(../img/HBSdemo.png);
+    background-size: cover;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    margin: 0px 0 0 -180px;
+    
+
+}
+.project1Overlay {
+
+width: 360px;
+    height: 265px;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    margin: 0px 0 0 -180px;
+    color: transparent;
+    text-align: center;
+    
+}
+.project1Overlay:hover {
+
+width: 360px;
+    height: 265px;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    margin: 0px 0 0 -180px;
+    background-color: white;
+    opacity: 0.9;
+    cursor: pointer;
+    color: #2a2a2a;
+    text-align: center;
 }
 
 
