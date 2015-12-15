@@ -1,0 +1,954 @@
+ @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
+
+
+@media screen and (min-width: 1281px) {
+
+html, body {
+margin: 0 auto;
+
+}
+
+#home {
+
+width: 100vw;
+    height: 100vh;
+    background-image: url(../img/mistyTrees.png);
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+}
+
+.iconLogo {
+width: 60px;
+    height: 60px;
+    background-image: url(../img/iconLogo.png);
+    background-size: cover;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -330px 0 0 -30px;
+
+}
+
+.mainLogo {
+width: 600px;
+    height: 300px;
+    background-image: url(../img/mainLogo.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -300px;
+
+}
+
+.nav1 {
+position: absolute;
+    
+    margin-top: 7%;
+    margin-left: 25%;
+
+
+}
+
+.nav2 {
+position: absolute;
+    
+    margin-top: 7%;
+    margin-left: 55%;
+}
+
+.navLinks {
+
+     color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+}
+
+.navLinks:hover {
+
+     color: #2a2a2a;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+
+}
+    
+    .emailLink {
+
+     color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+}
+
+.emailLink:hover {
+
+     color: #cf9247;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+
+}
+
+ ul {
+    list-style-type: none;
+    margin: auto;
+    padding-top: 30px;
+  }
+  li {
+    display: inline;
+    margin: 40px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+      list-style-type: none;
+  }
+
+.downArrow {
+width: 60px;
+    height: 60px;
+    background-image: url(../img/downArrow.png);
+    background-size: cover;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 200px 0 0 -30px;
+   
+
+}
+
+.me {
+width: 26%;
+    height: 62.5%;
+    background-image: url(../img/me.png);
+    background-size: cover;
+    left: 0px;
+   position: absolute;
+
+z-index: 1;
+}
+
+#about {
+    width: 74%;
+    height: 62.5%;
+    background-color: #2a2a2a;
+    position: absolute;
+  right: 0px;
+z-index: 1;
+}
+
+/*
+.boxShadow1 {
+
+-webkit-box-shadow: 0px 9px 35px -4px rgba(0,0,0,1);
+position: relative;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+}
+*/
+.boxShadow2 {
+
+-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,1);
+position: relative;
+    width: 100vw;
+    height: 700px;
+    z-index: 1;
+}
+.boxShadow3 {
+
+-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,1);
+position: relative;
+    width: 100vw;
+    height: 500px;
+    z-index: 1;
+}
+
+h1 {
+font-family: Asche, sans-serif;
+    color: #cf9247;
+font-size: 60px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    right: 460px;
+
+}
+
+.aboutText {
+width: 500px;
+    height: 300px;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    text-align:center;
+    margin: 0 auto;
+    position: absolute;
+right: 250px;
+    top: 200px;
+
+}
+
+.bgPanel1 {
+
+width: 100vw;
+    height: 950px;
+    background-image: url(../img/aerialTrees1.png);
+    background-size: cover;
+    background-attachment: fixed;
+z-index: 0;
+}
+.bgPanel2 {
+
+width: 100vw;
+    height: 300px;
+    background-image: url(../img/aerialTrees2.png);
+    background-size: cover;
+    background-attachment: fixed;
+z-index: 0;
+}
+
+#work {
+width: 100vw;
+    height: 100px;
+    background-color: #cf9247;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+
+
+}
+
+.workTitle {
+font-family: Asche, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 60px;
+    color: white;
+    line-height: 100px;
+
+}
+
+.workContainer {
+width: 100vw;
+    height: 600px;
+    background-color: #2a2a2a;
+
+}
+
+.project1 {
+
+width: 800px;
+    height: 600px;
+    background-image: url(../img/HBSdemo.png);
+    background-size: cover;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    margin: 0px 0 0 -400px;
+    
+
+}
+.project1Overlay {
+
+width: 800px;
+    height: 600px;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    margin: 0px 0 0 -400px;
+    color: transparent;
+    
+}
+.project1Overlay:hover {
+
+width: 800px;
+    height: 600px;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    margin: 0px 0 0 -400px;
+    background-color: white;
+    opacity: 0.9;
+    cursor: pointer;
+    color: #2a2a2a;
+}
+
+
+
+#contact {
+width: 100vw;
+    height: 100px;
+    background-color: #cf9247;
+    text-align: center;
+
+
+}
+
+.projectText {
+width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -250px;
+
+
+}
+
+.projectDescription {
+width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -0px 0 0 -250px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+
+
+}
+
+a {
+color: inherit;
+    text-decoration: none;
+    font-family: Asche, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 80px;
+    z-index: 5;
+
+}
+
+.contactTitle {
+font-family: Asche, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 60px;
+    color: white;
+    line-height: 100px;
+
+}
+
+.contactContainer {
+width: 100vw;
+    height: 400px;
+    background-color: #2a2a2a;
+
+}
+
+.footer {
+width: 100vw;
+    height: 100px;
+    background-color: black;
+    position: relative;
+
+}
+
+.upArrow {
+
+width: 60px;
+    height: 60px;
+    background-image: url(../img/upArrow.png);
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.designedBy {
+
+color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    
+
+}
+
+.dakotacorbin {
+color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+
+}
+.dakotacorbin:hover {
+color: #cf9247;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+
+}
+   .contactText {
+    width: 50%;
+        height: 100%;
+        color: white;
+        font-family: Montserrat, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-align: left;
+        position: relative;
+       float: left;
+    
+        
+    
+    }
+.address {
+    width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -80px 0 0 -125px;
+    font-size: 20px;
+        
+    
+    
+    }
+       .socialMedia {
+      width: 50%;
+        height: 100%;
+        color: white;
+        font-family: Montserrat, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        position: relative;
+        float: left;
+    }
+    
+    .iconContainer {
+    
+    width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -150px 0 0 -150px;
+    
+    }
+    
+    .icon1 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/twitterIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    .icon2 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/instagramIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    .icon3 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/linkedinIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    .icon4 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/githubIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+html, body {
+margin: 0 auto;
+
+}
+
+#home {
+
+width: 100vw;
+    height: 100vh;
+    background-image: url(../img/mistyTrees.png);
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+}
+
+.iconLogo {
+width: 60px;
+    height: 60px;
+    background-image: url(../img/iconLogo.png);
+    background-size: cover;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -330px 0 0 -30px;
+
+}
+
+.mainLogo {
+width: 600px;
+    height: 300px;
+    background-image: url(../img/mainLogo.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -300px;
+
+}
+
+.nav1 {
+position: absolute;
+    
+    top: 10px;
+    left: 80px;
+
+
+}
+
+.nav2 {
+position: absolute;
+    
+    top: 10px;
+    right: 80px;
+}
+
+.navLinks {
+
+     color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+}
+
+.navLinks:hover {
+
+     color: #2a2a2a;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+
+}
+    
+        .emailLink {
+
+     color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+}
+
+.emailLink:hover {
+
+     color: #cf9247;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+
+}
+
+ ul {
+    list-style-type: none;
+    margin: auto;
+    padding-top: 30px;
+  }
+  li {
+    display: inline;
+    margin: 40px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+      list-style-type: none;
+  }
+
+.downArrow {
+width: 60px;
+    height: 60px;
+    background-image: url(../img/downArrow.png);
+    background-size: cover;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 200px 0 0 -30px;
+   
+
+}
+
+.me {
+width: 26%;
+    height: 62.5%;
+    background-image: url(../img/me.png);
+    background-size: cover;
+    left: 0px;
+   position: absolute;
+
+z-index: 1;
+}
+
+#about {
+    width: 74%;
+    height: 62.5%;
+    background-color: #2a2a2a;
+    position: absolute;
+  right: 0px;
+z-index: 1;
+}
+
+/*
+.boxShadow1 {
+
+-webkit-box-shadow: 0px 9px 35px -4px rgba(0,0,0,1);
+position: relative;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+}
+*/
+.boxShadow2 {
+
+-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,1);
+position: relative;
+    width: 100vw;
+    height: 700px;
+    z-index: 1;
+}
+.boxShadow3 {
+
+-webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,1);
+position: relative;
+    width: 100vw;
+    height: 500px;
+    z-index: 1;
+}
+
+h1 {
+font-family: Asche, sans-serif;
+    color: #cf9247;
+font-size: 60px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    right: 360px;
+
+}
+
+.aboutText {
+width: 500px;
+    height: 300px;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    text-align:center;
+    margin: 0 auto;
+    position: absolute;
+right: 150px;
+    top: 150px;
+
+}
+
+.bgPanel1 {
+
+width: 100vw;
+    height: 750px;
+    background-image: url(../img/aerialTrees1.png);
+    background-size: cover;
+    background-attachment: fixed;
+z-index: 0;
+}
+.bgPanel2 {
+
+width: 100vw;
+    height: 300px;
+    background-image: url(../img/aerialTrees2.png);
+    background-size: cover;
+    background-attachment: fixed;
+z-index: 0;
+}
+
+#work {
+width: 100vw;
+    height: 100px;
+    background-color: #cf9247;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+
+
+}
+
+.workTitle {
+font-family: Asche, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 60px;
+    color: white;
+    line-height: 100px;
+
+}
+
+.workContainer {
+width: 100vw;
+    height: 600px;
+    background-color: #2a2a2a;
+
+}
+
+.project1 {
+
+width: 800px;
+    height: 600px;
+    background-image: url(../img/HBSdemo.png);
+    background-size: cover;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    margin: 0px 0 0 -400px;
+    
+
+}
+.project1Overlay {
+
+width: 800px;
+    height: 600px;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    margin: 0px 0 0 -400px;
+    color: transparent;
+    
+}
+.project1Overlay:hover {
+
+width: 800px;
+    height: 600px;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    margin: 0px 0 0 -400px;
+    background-color: white;
+    opacity: 0.9;
+    cursor: pointer;
+    color: #2a2a2a;
+}
+
+
+
+#contact {
+width: 100vw;
+    height: 100px;
+    background-color: #cf9247;
+    text-align: center;
+
+
+}
+
+.projectText {
+width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -250px;
+
+
+}
+
+.projectDescription {
+width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -0px 0 0 -250px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+
+
+}
+
+a {
+color: inherit;
+    text-decoration: none;
+    font-family: Asche, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 80px;
+    z-index: 5;
+
+}
+
+.contactTitle {
+font-family: Asche, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 60px;
+    color: white;
+    line-height: 100px;
+
+}
+
+.contactContainer {
+width: 100vw;
+    height: 400px;
+    background-color: #2a2a2a;
+position: relative;
+}
+
+.footer {
+width: 100vw;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+
+}
+
+.upArrow {
+
+width: 60px;
+    height: 60px;
+    background-image: url(../img/upArrow.png);
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.designedBy {
+
+color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    
+
+}
+
+.dakotacorbin {
+color: white;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+
+}
+.dakotacorbin:hover {
+color: #cf9247;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+
+}
+    
+    .contactText {
+    width: 50%;
+        height: 100%;
+        color: white;
+        font-family: Montserrat, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-align: left;
+        position: relative;
+        float: left;
+    
+        
+    
+    }
+.address {
+    width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -80px 0 0 -125px;
+    font-size: 20px;
+        
+    
+    
+    }
+    
+    .socialMedia {
+      width: 50%;
+        height: 100%;
+        color: white;
+        font-family: Montserrat, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        position: relative;
+        float: left;
+    }
+    
+    .iconContainer {
+    
+    width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -150px 0 0 -150px;
+    
+    }
+    
+    .icon1 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/twitterIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    .icon2 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/instagramIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    .icon3 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/linkedinIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    .icon4 {
+    width: 110px;
+        height: 110px;
+        margin: 20px;
+        background-image: url(../img/githubIcon.png);
+        background-size: cover;
+        float: left;
+    
+    }
+    
+}
