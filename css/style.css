@@ -1,9 +1,9 @@
- 
+  @font-face { font-family: Asche; src: url('../asche-bold-webfont.woff'); }
 
 
 @media screen and (min-width: 1281px) {
 
-    @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
+   
     
 html, body {
 margin: 0 auto;
@@ -461,7 +461,6 @@ color: #cf9247;
 
 @media screen and (min-width: 415px) and (max-width: 1280px) {
 
-    @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
     
 html, body {
 margin: 0 auto;
@@ -951,7 +950,7 @@ color: #cf9247;
 
 @media screen and (min-width: 375px) and (max-width: 415px) {
 
-    @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
+    
     
 html, body {
 margin: 0 auto;
@@ -1426,7 +1425,7 @@ color: #cf9247;
 
 @media screen and (max-width: 375px) {
 
-    @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
+   
     
 html, body {
 margin: 0 auto;
