@@ -459,7 +459,7 @@ color: #cf9247;
 
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 415px) and (max-width: 1280px) {
 
     @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
     
@@ -949,7 +949,7 @@ color: #cf9247;
 
 
 
-@media screen and (max-width: 415px) {
+@media screen and (min-width: 375px) and (max-width: 415px) {
 
     @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
     
