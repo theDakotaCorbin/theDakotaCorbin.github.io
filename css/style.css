@@ -1,8 +1,10 @@
- @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
+ 
 
 
 @media screen and (min-width: 1281px) {
 
+    @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
+    
 html, body {
 margin: 0 auto;
 
@@ -144,40 +146,16 @@ z-index: 1;
 z-index: 1;
 }
 
-/*
-.boxShadow1 {
 
--webkit-box-shadow: 0px 9px 35px -4px rgba(0,0,0,1);
-position: relative;
-    width: 100%;
-    height: 800px;
-    z-index: 1;
-}
-*/
-.boxShadow2 {
 
--webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,1);
-position: relative;
-    width: 100vw;
-    height: 700px;
-    z-index: 1;
-}
-.boxShadow3 {
-
--webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,1);
-position: relative;
-    width: 100vw;
-    height: 500px;
-    z-index: 1;
-}
-
-h1 {
+.aboutTitle {
 font-family: Asche, sans-serif;
     color: #cf9247;
 font-size: 60px;
     -webkit-font-smoothing: antialiased;
     position: absolute;
     right: 460px;
+    margin-top: 30px;
 
 }
 
@@ -483,6 +461,8 @@ color: #cf9247;
 
 @media screen and (max-width: 1280px) {
 
+    @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
+    
 html, body {
 margin: 0 auto;
 
@@ -651,13 +631,14 @@ position: relative;
     z-index: 1;
 }
 
-h1 {
+.aboutTitle {
 font-family: Asche, sans-serif;
     color: #cf9247;
 font-size: 60px;
     -webkit-font-smoothing: antialiased;
     position: absolute;
     right: 360px;
+    margin-top: 30px;
 
 }
 
@@ -970,6 +951,8 @@ color: #cf9247;
 
 @media screen and (max-width: 415px) {
 
+    @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
+    
 html, body {
 margin: 0 auto;
 
@@ -1443,6 +1426,8 @@ color: #cf9247;
 
 @media screen and (max-width: 375px) {
 
+    @font-face { font-family: Asche; src: url('Asche-Bold.otf'); }
+    
 html, body {
 margin: 0 auto;
 
