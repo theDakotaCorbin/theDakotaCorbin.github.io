@@ -264,7 +264,7 @@ a.pause {
 
 #skillsContainer {
   width: 100%;
-  padding: 30px;
+  padding:0px;
   background-color: white;
   position: relative;
   text-align: center;
@@ -277,7 +277,7 @@ a.pause {
 
 #contactContainer {
   width: 100%;
-  padding: 30px;
+  padding: 0px;
   background-color: #000228;
   position: relative;
   text-align: center;
