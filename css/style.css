@@ -291,7 +291,69 @@ a.pause {
 
 
 
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
 
+.mainLogo {
+    width: 400px;
+    position: absolute;
+    top: 350px;
+    left: 140px;
+    -webkit-animation-duration: .3s;
+    -webkit-animation-delay: 1s;
+  }
+
+  a.play {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background: transparent;
+    color: white;
+    text-align: center;
+    font-family: Helvetica Neue, sans-serif;
+    border-radius: 8px;
+    top: 505px;
+    left: 200px;
+    text-decoration: none;
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    z-index: 101;
+  }
+  a.pause {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background: transparent;
+    color: white;
+    text-align: center;
+    font-family: Helvetica Neue, sans-serif;
+    border-radius: 8px;
+    top: 505px;
+    left: 355px;
+    text-decoration: none;
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    z-index: 101;
+  }
+    
+     .rayBans {
+    width: 350px;
+    position: absolute;
+    right: 270px;
+    top: 350px;
+    /*    -webkit-animation-duration: 5s;*/
+    /*
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+*/
+  }
+    .contactIcon {
+    width: 65px;
+  }
+
+
+}
 
 
 
