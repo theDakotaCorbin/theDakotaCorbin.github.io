@@ -356,11 +356,31 @@ a.pause {
 }
 
 
+@media screen and (min-width: 737px) and (max-width: 1024px){
+    
+     .rayBans {
+    width: 310px;
+    position: absolute;
+    right: 247px;
+    top: 305px;
+    /*    -webkit-animation-duration: 5s;*/
+    /*
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+*/
+  }
+    
+    
+    
+    
+}
 
 
 
 
-@media screen and (min-width: 737px) and (max-width: 1280px) {
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .mainBG {
     width: 100vw;
     height: 100vh;
