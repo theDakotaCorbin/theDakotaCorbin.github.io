@@ -363,6 +363,7 @@ a.pause {
     position: absolute;
     right: 25px;
     top: 295px;
+         display: none;
     /*    -webkit-animation-duration: 5s;*/
     /*
   -webkit-animation-delay: 2s;
@@ -394,6 +395,7 @@ a.pause {
     font-weight: 100;
     -webkit-font-smoothing: antialiased;
     z-index: 101;
+         display: none;
   } 
       a.pause {
     position: absolute;
@@ -411,6 +413,7 @@ a.pause {
     font-weight: 100;
     -webkit-font-smoothing: antialiased;
     z-index: 101;
+          display: none;
   }
     
     
