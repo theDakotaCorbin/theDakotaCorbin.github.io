@@ -30,6 +30,13 @@
 .start-page .content .text {
   width:300px;
 }
+    
+.start-page .content .text .logo{
+  width:200px;
+  height:100px;
+  margin:0 auto 50px;
+  
+}
 
 
 h1 {
