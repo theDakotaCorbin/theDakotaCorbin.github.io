@@ -66,7 +66,7 @@ p{
   color:white;
   font-weight:300;
   letter-spacing:1px;
-  margin-top:40px;
+  margin-top:0px;
 }
 
 
@@ -104,7 +104,7 @@ h1 span{
   width:100%;
   height:100%;
   z-index:10;
-  background:url('../img/background/start-page.jpg') #c0c0c0 bottom center fixed no-repeat;
+  background:url('../img/photo-1461352195749-fdba50b79c74.jpeg') #c0c0c0 bottom center fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -149,8 +149,8 @@ h1 span{
 }
 
 .start-page .content .text .logo{
-  width:123px;
-  height:123px;
+  width:700px;
+  height:300px;
   margin:0 auto 50px;
   
 }
@@ -178,8 +178,8 @@ h1 span{
 
 .start-page .content .text .read-more:hover{
   color:white;
-  background: #ada074;
-  border:1px solid #ada074;
+    background: #1e1f23;
+  border:1px solid #1e1f23;
 }
 
 .start-page .content .arrow-down{
@@ -426,7 +426,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/responsive.png) white no-repeat center center;
+  background: url(../img/monitor.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -457,7 +457,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/minimalist.png) white no-repeat center center;
+  background: url(../img/camera.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -488,7 +488,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/free.png) white no-repeat center center;
+  background: url(../img/print.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
