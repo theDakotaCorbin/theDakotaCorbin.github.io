@@ -142,6 +142,23 @@ textarea{
 
 /* iPad (portrait) */
 @media (min-width: 580px) and (max-width: 767px) {
+    
+    .start-page .content .text .logo{
+  width:200px;
+  height:100px;
+  margin:0 auto 50px;
+  
+}
+    
+    .footer .logo{
+
+  position:relative;
+  width:100px;
+  height:50px;
+  margin: 0 auto;
+  padding-top:50px;
+
+}
 
 .menu{
   display:none;
